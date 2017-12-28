@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit User Form</title>
+    <link rel="stylesheet" href="edit-user-form.css">
+</head>
+<body>
+
+    <header>
+        <h1>EDIT USER</h1>
+    </header>
+
+    <main>
+    <form method="post" action="#">
+
+        <div class="personal-data">
+        <label>
+            <span>Username</span>
+            <input type="text">
+        </label>
+
+        <label class="email">
+            <span>Email</span>
+            <input type="email">
+        </label>
+
+        <label class="phone-number">
+            <span>Phone number</span>
+            <input type="text">
+        </label>
+        </div>
+
+        <div class="deactivate">
+        <input type="checkbox">
+        <span>Deactivate</span>
+        </div>
+
+
+            <div class="user-type">
+               <span>User type</span>
+                <div class="radio">
+                <input type="radio"> <span>Broadband</span>
+                <input type="radio"> <span>Radio</span>
+                </div>
+            </div>
+
+            <div class="pass">
+                <label>
+                <span>Change Password</span>
+                <input type="password">
+                </label>
+            </div>
+
+
+                <label class="groups">
+                    <span>Group</span>
+                    <div class="group-number">
+                        <ul>
+                            <li>
+                                <input type="checkbox">
+                                <span> All groups</span>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <span> Group 1</span>
+                            </li>
+
+                            <li>
+                                <input type="checkbox">
+                                <span>Group 2</span>
+                            </li>
+
+                            <li>
+                                <input type="checkbox">
+                                <span>Group 3</span>
+                            </li>
+
+                            <li>
+                                <input type="checkbox">
+                                <span>Group 4</span>
+                            </li>
+                        </ul>
+                    </div>
+                </label>
+
+
+             <div class="contacts">
+                <span>Contacts</span>
+                 <span><a href="#">See Contacts list</a></span>
+             </div>
+
+        <div class="buttons">
+        <input type="button" value="CANCEL">
+        <input type="button" value="SAVE">
+        </div>
+    </form>
+
+    </main>
+</body>
+</html>

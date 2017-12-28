@@ -1,0 +1,252 @@
+@media screen and (max-width: 1311px) {
+    .mame-container {
+        transform: scale(1.5);
+        margin-top: 150px;
+        margin-bottom: 180px;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .meme-container-wide img {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    main > section {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .mame-container {
+        transform: scale(1.2);
+        margin-bottom: 100px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    main{
+    padding-top: 20px;
+    }
+
+    main > section {
+        width: 80%;
+    }
+
+    main > section article {
+        margin: 0 auto;
+    }
+
+    main > section article > p {
+        text-align: center;
+    }
+
+    .meme-container-wide {
+        float: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .right {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        height: 180px;
+    }
+
+    .share-wide, .like-wide, .dislike-wide {
+        display: inline-block;
+        width: 25%;
+        font-size: 1rem;
+        line-height: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    .itemized-info {
+        margin-top: 0;
+        position: relative;
+        height: 40px;
+    }
+
+    .itemized-info span:first-of-type {
+        padding: 0;
+    }
+
+    .itemized-info > img {
+        position: relative;
+        width: 8%;
+        top: -60px;
+        left: -100px;
+    }
+
+    .memes {
+        position: relative;
+        top: -80px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    html {
+        font-size: 12px;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    aside {
+        position: inherit;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    header {
+        width: 80%;
+        height: 50px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .logo {
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+    header img {
+        position: relative;
+        height: 50px;
+        top: -57px;
+        left: -110px;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mame-container {
+        transform: scale(1);
+        margin: 10px 0;
+    }
+
+    .register, .user-login {
+        width: 80%;
+    }
+
+    .mame-info-right, .mame-info-left {
+        height: 50px;
+    }
+
+    form input {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    form .title, .register-title {
+        margin-bottom: 20px;
+    }
+
+    form button {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mame-container {
+        margin: 10px auto;
+        display: block;
+        width: 95%;
+        height: 100%;
+    }
+
+    .mame-container img {
+        width: 90%;
+    }
+
+    .mame-info-left, .mame-info-right {
+        display: block;
+        width: 90%;
+        font-size: 0.8rem;
+        height: 40px;
+    }
+
+    .share {
+        display: inline-block;
+        margin: 5px;
+        width: 35%;
+        height: 30px;
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .like, .dislike {
+        display: inline-block;
+        margin: 5px;
+        width: 25%;
+        height: 30px;
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .social-buttons {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .meme-container-wide header {
+        height: 30px;
+    }
+
+    .meme-container-wide h1 {
+        line-height: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .meme-container-wide h2 {
+        line-height: 1rem;
+        font-size: 1rem;
+    }
+
+    .share-wide, .like-wide, .dislike-wide {
+        display: inline-block;
+        width: 25%;
+        font-size: 1rem;
+        line-height: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .meme-container-wide img {
+
+    }
+
+    .itemized-info > img {
+        position: relative;
+        width: 8%;
+        top: -50px;
+        left: -80px;
+    }
+
+    .memes a {
+        padding-top: 30px;
+        width: 22%;
+    }
+
+    .register, .login {
+        width: 90%;
+        padding: 5px;
+        margin: 5px auto;
+    }
+    video{
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    word-wrap: break-word;
+}
+
+html {
+    display: flex;
+}
+
+body, header, main, section, footer {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+    flex: 1 100%;
+}
+
+header nav {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+header ul {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style: none;
+    height: 25px;
+}
+
+header ul li:hover {
+    border-bottom: 2px solid #adadad;
+    cursor: pointer;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(103, 103, 103, 0.72);
+    font-weight: 600;
+}
+
+main .wireless-earphones {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+main .wireless-earphones img {
+    width: 400px;
+    height: 350px;
+}
+
+main .wireless-earphones article {
+    width: 320px;
+}
+
+main .wireless-earphones article h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+main .wireless-earphones article p {
+    color: rgba(70, 70, 70, 0.72);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+main .wireless-earphones article button {
+    background-color: #FF0000;
+    padding: 8px 25px;
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+main .wireless-earphones article button:hover {
+    cursor: pointer;
+    background-color: #DC0202;
+}
+
+main .power-earphones {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #FBFCFF;
+    width: 730px;
+    margin: auto;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+
+main .power-earphones article {
+    order: 2;
+    width: 320px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+
+main .power-earphones article h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: right;
+}
+
+main .power-earphones article h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: -30px;
+    text-align: right;
+}
+
+
+main .power-earphones article p {
+    color: rgb(70, 70, 70);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    width: 320px;
+    margin-left: 70px;
+}
+
+main .power-earphones article h2 > span {
+    font-weight: 400;
+    color: rgba(48, 48, 48, 0.72);
+}
+main .power-earphones img {
+    width: 240px;
+    height: 250px;
+    order: 1;
+    margin-top: 40px;
+}
+
+main .power-earphones article div {
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+main .power-earphones article div button {
+    background-color: #FF0000;
+    padding: 8px 25px;
+    border: transparent;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+main .power-earphones article div button:hover {
+    cursor: pointer;
+    background-color: #DC0202;
+}
+
+
+main .power-earphones article div > span {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+main .submit {
+    width: 730px;
+    background-color: #575757;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+main .submit div img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+main .submit div p {
+    text-transform: uppercase;
+    color: lightgray;
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+
+main .submit span {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+main .submit input {
+    color: white;
+    border: 1px solid #575757;
+    background-color: #575757;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #959595;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    outline: none;
+}
+
+main .advert {
+    display: flex;
+    width: 730px;
+    margin: auto;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+main .advert img {
+    width: 250px;
+    height: 280px;
+}
+
+main .advert img{
+    flex: 1 40%;
+}
+
+main .advert > article {
+    flex: 1 60%;
+    background-color: #DADADA;
+    display: flex;
+}
+
+main .advert > article p:first-of-type {
+    font-size: 70px;
+    width: 180px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    margin-left: 40px;
+    flex: 2 80%;
+}
+
+main .advert > article p:last-of-type {
+    margin-left: 40px;
+    font-size: 28px;
+    flex: 1 50%;
+}
+
+main .advert > article > img {
+    width: 50px;
+    height: 250px;
+    flex: 2 50%;
+}
+
+
+
+footer {
+    text-align: center;
+    color: #626262;
+}
+

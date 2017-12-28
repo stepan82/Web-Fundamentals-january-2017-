@@ -1,0 +1,152 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #fcfcfc;
+    background-color: #355664;;
+}
+h1, h2, h3 {
+    font-family: forte, Arial, sans-serif;
+}
+ h1 {
+     font-size: 50px;
+     padding: 10px 0 0;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ h2 {
+     font-size: 40px;
+     letter-spacing: 15px;
+     text-align: center;
+     border-bottom: 3px solid #416371;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+ }
+ h3 {
+     text-align: right;
+     font-size: 30px;
+     font-weight: normal;
+     margin: 0 0 10px;
+ }
+ p {
+     line-height: 20px;
+     padding-bottom: 5px;
+     color: #94c258;
+ }
+ img {
+     width: 500px;
+     height: 300px;
+     border: None;
+     border-radius: 10px;
+ }
+ .article-content {
+     margin: 15px 0;
+ }
+ nav {
+     background-color: #355664;
+     padding-right: 5px;
+     padding-left: 5px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     margin-top: 50px;
+ }
+ article {
+     height: 390px;
+     background-color: #213E4A;
+     padding: 20px;
+     margin: 0 0 10px;
+     border-radius: 10px;
+ }
+figure {
+    border: 3px solid #142830;
+    float: right;
+    height: 300px;
+    width: 500px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+footer {
+    border-top: 3px solid #142830;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+nav ul li:first-of-type > a {
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+    color: #7CB3E9;
+    text-transform: lowercase;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a[title="sweet tabs"] {
+    color: #8EC45B;
+    text-transform: none;
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+}
+nav ul li:last-of-type > a {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 5px 2px;
+    padding: 7px 10px 4px;
+    font-size: 30px;
+}
+a {text-decoration: none;
+}

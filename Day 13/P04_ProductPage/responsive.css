@@ -1,0 +1,126 @@
+@media screen and (max-width: 640px) {
+
+    #header-top-area h2, h3, .navigation {
+        display: none;
+    }
+
+    #product-menu {
+        display: block;
+    }
+
+    #header-middle-area a {
+        display: block;
+    }
+
+    #header-middle-area a::before {
+        top: 3px;
+    }
+
+    #products-liked-list .box:nth-of-type(2), .box:nth-of-type(4) {
+        display: none;
+    }
+
+    #products-liked-list .box:nth-of-type(3) {
+        display: block;
+    }
+
+    #products-liked-list ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #products-suggestions-list ul li:nth-of-type(2), li:nth-of-type(3) {
+        display: none;
+    }
+
+    #products-suggestions-list {
+        width: 1035px;
+    }
+
+    #products-suggestions-list .wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #products-suggestions-list .wrap > h3 {
+        display: block;
+    }
+
+    #products-liked-list .wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    main {
+        width: 1035px;
+    }
+
+    #header-middle-area {
+        margin-top: 40px;
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #product-menu {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 1035px;
+    }
+
+    footer {
+        width: 1035px;
+    }
+
+    footer .wrap {
+        display: flex;
+        FLEX-DIRECTION: column;
+        background-color: #26292E;
+    }
+
+    footer .wrap > div {
+        text-align: center;
+        flex: 1;
+        width: auto;
+    }
+
+
+    footer .wrap > div:first-of-type {
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 1.5em;
+        color: white;
+    }
+
+    footer .wrap > div:first-of-type > a {
+        color: white;
+    }
+
+    footer .wrap span {
+        display: block;
+    }
+
+    footer .wrap > div:nth-of-type(2) {
+        font-size: 1.5em;
+    }
+
+    footer .wrap > div:last-of-type {
+        margin-bottom: 40px;
+        padding-top: 0;
+        font-size: 1.5em;
+    }
+
+    footer .wrap > div:last-of-type span {
+        margin-top: 20px;
+    }
+
+    #product-menu ul li:hover .submenu {
+        display: block;
+        cursor: pointer;
+    }
+
+}

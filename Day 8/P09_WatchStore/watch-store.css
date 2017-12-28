@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url('fonts/Lemon-Regular.ttf')
+}
+body {
+    background-color: #602C74;
+}
+main {
+    width: 900px;
+    height: 600px;
+    background-color: #FFAE31;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-family: Lemon-Regular;
+}
+main::after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+}
+article {
+    display: inline-block;
+    width: 250px;
+    height: 450px;
+    background-color: #602C74;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+h1 {
+    padding-top: 20px;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+article p:first-of-type {
+    font-size: 22px;
+}
+img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    border: 5px solid #806671;
+}
+p {
+    color: #ffffff;
+    line-height: 5px;
+    text-align: left;
+}
+article p:nth-of-type(2) {
+    color: #FFAE31;
+    text-align: center;
+}
+article p:first-of-type {
+    text-align: center;
+}
+article p:nth-of-type(3), p:nth-of-type(4),p:nth-of-type(5) {
+padding-left: 20px;
+}
+button {
+    width: 225px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    outline: none;
+}
+a {
+    font-family: Lemon-Regular;
+    text-decoration: none;
+    color: #8C57DB;
+    font-size: 15px;
+}
+a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+article:hover {
+    cursor: pointer;
+}
+img:hover {
+    border: 5px solid red;
+}

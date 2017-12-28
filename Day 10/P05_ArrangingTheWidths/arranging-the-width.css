@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #2D2D2D;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    display: block;
+    margin-top: 2px;
+}
+
+input, select {
+    width: 200px;
+}
+
+textarea {
+    width: 200px;
+    height: 180px;
+}

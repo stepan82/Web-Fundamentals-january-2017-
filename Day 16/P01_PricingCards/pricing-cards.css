@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: #EAF0F1;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+main article {
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #F9FAFB;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: 460px;
+    text-align: center;
+    box-shadow: 5px 5px 10px darkgrey;
+}
+
+article img {
+    width: 42px;
+    height: 51px;
+    margin-top: 10px;
+}
+
+article h2 {
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgba(27, 27, 27, 0.58);
+}
+
+article p {
+    font-size: 14px;
+    color: rgba(27, 27, 27, 0.58);
+    margin-top: 40px;
+    padding: 20px;
+}
+
+article span, a {
+    display: block;
+    margin-top: 30px;
+}
+
+article:first-of-type span {
+    color: rgba(27, 27, 27, 0.58);
+}
+
+article span {
+    font-size: 30px;
+    color: #FB7F40;
+}
+
+article a {
+    padding: 10px 40px;
+    background-color: #FB7F40;
+    width: 100px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+article:first-of-type a {
+    background-color: #93DDE8;
+}
+
+article:nth-of-type(2) a:hover, article:nth-of-type(3) a:hover {
+    background-color: #FF4D00;
+    cursor: pointer;
+}
+
+article:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+

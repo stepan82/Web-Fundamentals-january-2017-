@@ -1,0 +1,167 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/eFRpvGLEW31oiexbYNx7Y_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/GtRkRNTnri0g82CjKnEB0Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body {
+    font: 300 16px/22px "Lato", sans-serif
+}
+header {
+    background-color: #293F50;
+    height: 330px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+li {
+    display: inline-block;
+    padding: 15px;
+    font-weight: normal;
+}
+nav {
+    background-color: #293F50;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+span {
+    float: right;
+    color:#64857C;
+    padding: 15px;
+    font-weight: normal;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    padding: 70px 0;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+h2 {
+    padding: 0 0;
+    margin: 0;
+    color: #64857C;
+    font-weight: normal;
+}
+#text {
+    font-weight: 100;
+    color: #ffffff;
+    padding: 10px;
+}
+.nav {
+    text-decoration: none;
+    color: #64857C;
+}
+.btn {
+    color: #ffffff;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    margin: 30px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+    border-color: #ffffff;
+    color: #64857C;
+}
+img {
+    width: 280px;
+    height: 185px;
+    border-radius: 5px;
+
+}
+section {
+    width: 280px;
+    display: inline-block;
+    margin: 20px;
+    display: inline-block;
+    font-weight: normal;
+    color: #A9B7C1;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    border: 5px solid #D9D9D9;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.padding {
+    padding: 20px 0;
+}
+h5 {
+    padding: 20px 0;
+}
+footer {
+    background-color: #293F50;
+    height: 100px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#flexfooter {
+    display: flex;
+    justify-content: space-between;
+}
+footer > nav {
+    padding: 40px 40px 20px;
+    display: inline-block;
+}
+footer > span {
+    padding: 53px 40px 0;
+    color: #ffffff;
+    display: inline-block;
+}
+
+

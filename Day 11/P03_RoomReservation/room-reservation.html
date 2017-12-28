@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="room-reservation.css">
+</head>
+<body>
+
+    <header>
+        <h1>Room Reservation</h1>
+    </header>
+
+    <section class="information">
+
+        <article>
+            <h4>Basic Information</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at nibh varius odio sollicitudin
+                blandit nec eu elit. Suspendisse ac risus nunc, quis elementum lorem. Pellentesque vehicula egestas eros
+                nec commodo.</p>
+        </article>
+
+    <form>
+        <label>
+            <span>Search</span>
+            <input type="search"><i class="fa fa-search" aria-hidden="true"></i>
+        </label>
+    </form>
+
+    </section>
+
+    <section class="detailed-info">
+
+        <form>
+
+            <div class="personal-info">
+            <label>
+                <h4>Personal Details</h4>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="text" placeholder="Enter email">
+            </label>
+            </div>
+
+            <div class="reservation-info">
+            <label>
+                <h4>Request a reservation</h4>
+                <div>
+                <span>Select a Room</span>
+                <select>
+                    <option>Room 1</option>
+                    <option>Room 2</option>
+                    <option>Room 3</option>
+                    <option>Room 4</option>
+                </select>
+                </div>
+
+                <div>
+                <span>Number of Rooms</span>
+                <input type="number" placeholder="1">
+                </div>
+
+                <div>
+                <span>Check-In:</span>
+                <input type="date">
+                </div>
+
+                <div>
+                <span>Check-Out:</span>
+                <input type="date">
+                </div>
+            </label>
+            </div>
+
+            <input type="submit" value="Book Now">
+        </form>
+
+    </section>
+</body>
+</html>

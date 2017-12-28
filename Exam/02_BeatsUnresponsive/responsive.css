@@ -1,0 +1,37 @@
+@media screen and (max-width: 640px) {
+    .nav-primary {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 60px;
+    }
+
+    .nav-primary li {
+        margin-bottom: 30px;
+    }
+
+    .solo {
+        text-align: center;
+    }
+
+    .second-row {
+        flex-direction: column;
+    }
+
+    .second-row div {
+        width: inherit;
+        align-items: center;
+    }
+
+    .studio {
+        text-align: center;
+    }
+
+    .grid-gallery {
+        text-align: center;
+    }
+
+    .grid-gallery img {
+        display: inline-block;
+        width: 45%;
+    }
+}

@@ -1,0 +1,68 @@
+@media screen and (max-width: 740px) {
+    header.clearfix {
+        text-align: center;
+    }
+
+    div#info, div#photo {
+        float: none;
+    }
+
+
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    header.clearfix {
+        text-align: center;
+    }
+
+    div#info, div#photo {
+        float: none;
+    }
+
+
+    h2 {
+        text-align: center;
+    }
+
+    #skills-left, #skills-right {
+        float: none;
+        width: 350px;
+    }
+
+    #skills-right ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #skills-left ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 350px;
+    }
+
+    #skills-right ul li {
+        width: 110px;
+    }
+
+    #skills-left ul li {
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #skills-right ul li {
+        width: 110px;
+        background: url(img/bullet.png) 5px 5px no-repeat;
+        padding-left: 25px;
+    }
+
+    #skills-left ul li {
+        width: 110px;
+        background: url(img/bullet.png) 5px 5px no-repeat;
+        padding-left: 25px;
+    }
+
+}

@@ -1,0 +1,25 @@
+main {
+    width: 400px;
+    text-align: justify;
+}
+div {
+    background-color: #6495ED;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    text-shadow: 0 0 5px white;
+}
+.left {
+    float: left;
+    margin-right: 10px;
+}
+.right {
+    float: right;
+    margin-left: 10px;
+}
+.center {
+    margin: 0 auto;
+}

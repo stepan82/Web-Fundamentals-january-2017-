@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+ nav ul {
+    list-style: none;
+    text-align: left;
+     width: 1000px;
+}
+
+ nav ul li {
+    margin-right: -40px;
+    display: inline-block;
+}
+
+nav ul li:first-of-type::before {
+   content: url("images/paraglider-icon.png");
+    position: relative;
+    left: 48px;
+    bottom: -16px;
+}
+
+nav ul li:nth-of-type(2)::before {
+     content: url("images/sky-diver.png");
+     position: relative;
+     left: 45px;
+     bottom: -15px;
+ }
+
+nav ul li:nth-of-type(3)::before {
+    content: url("images/climbing.png");
+    position: relative;
+    left: 46px;
+    bottom: -15px;
+}
+
+nav ul li:nth-of-type(4)::before {
+    content: url("images/about-us.png");
+    position: relative;
+    left: 48px;
+    bottom: -15px;
+}
+
+ nav ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #206DA5;
+     padding-left: 45px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+
+ nav ul li a:hover {
+    cursor: pointer;
+    background-color: rgba(32, 109, 165, 0.39);
+     padding-left: 45px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+    border-radius: 10px;
+}
+
+ nav ul li:first-of-type > a {
+    background-color: rgba(32, 109, 165, 0.39);
+     padding-left: 45px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+    border-radius: 10px;
+}
+
+main {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .personal-info, .flight-info {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main .personal-info fieldset {
+   border: 2px solid #206DA5;
+    border-radius: 15px;
+    height: 350px;
+    color: #206DA5;
+}
+
+
+main .personal-info fieldset input {
+    border: 1px solid #206DA5;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+main .personal-info fieldset input::-webkit-input-placeholder {
+    font-size: 18px;
+    padding-left: 50px;
+    color: #538ec2;
+    text-shadow: 1px 1px 6px #fefefe;
+}
+
+main .personal-info fieldset input:first-of-type {
+    margin-top: 50px;
+}
+
+main .personal-info fieldset input:first-of-type {
+   background: url("images/user1.png");
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 4px;
+}
+
+main .personal-info fieldset input:nth-of-type(2) {
+    background: url("images/phone.png");
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 4px;
+}
+
+main .personal-info fieldset input:last-of-type {
+    background: url("images/email.png");
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+    background-position-x: 4px;
+}
+
+
+main .flight-info fieldset {
+    border: 2px solid #206DA5;
+    border-radius: 15px;
+    height: 350px;
+    color: #206DA5;
+}
+
+main .flight-info select {
+    border: 1px solid #206DA5;
+    border-radius: 15px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #206DA5;
+    width: 280px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+main .flight-info select optgroup {
+    background-color: #BEE0E9;
+    font-size: 14px;
+}
+
+main .flight-info select optgroup option {
+    font-size: 14px;
+}
+
+main .flight-info p:first-of-type {
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+main .flight-info p:nth-of-type(2) {
+    margin-top: 5px;
+}
+
+main .flight-info p:last-of-type {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main .flight-info input[type="date"] {
+    border: 1px solid #206DA5;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    color: #206DA5;
+    width: 280px;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.buttons input {
+    font-size: 24px;
+    background-color: transparent;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    width: 90px;
+    outline: none;
+
+}
+
+.buttons input:first-of-type {
+    border: 1px solid red;
+    color: red;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.buttons input:first-of-type:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.buttons input:last-of-type {
+    border: 1px solid #13F118;
+    color: #13F118;
+    font-weight: 700;
+    padding: 5px;
+    margin-right: 80px;
+}
+
+.buttons input:last-of-type:hover {
+    cursor: pointer;
+    background-color: #00B200;
+    color: white;
+}
+
+

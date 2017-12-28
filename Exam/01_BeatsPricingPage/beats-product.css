@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+body {
+    background-color: #DDDDDD;
+    font-family: Lato, sans-serif;
+}
+
+main .earphones-price-list {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+
+main .earphones-price-list article {
+    width: 290px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px grey;
+    min-height: 400px;
+}
+
+main .earphones-price-list article img {
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+main .earphones-price-list article h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+main .earphones-price-list article p {
+   font-size: 14px;
+    color: #121212;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main .earphones-price-list article a {
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+main .earphones-price-list article a::before {
+    content: "$220";
+    font-weight: 900;
+}

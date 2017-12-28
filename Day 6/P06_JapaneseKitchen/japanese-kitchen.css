@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+body {
+    line-height: 1;
+    color: black;
+    background: white;
+}
+ol, ul {
+    list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+}
+blockquote, q {
+    quotes: "" "";
+}
+body {
+    font-size: 14px;
+    background-image: url("images/dark-wood.jpg");
+}
+header {
+    margin: auto;
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 840px;
+    height: 100px;
+    margin-top: -22px;
+}
+header h1 {
+    padding-top: 40px;
+    padding-right: 10px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav {
+    margin: auto;
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 26px;
+    margin-top: 2px;
+    font-size: 17px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+nav ul {
+    padding-left: 10px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+}
+nav li:first-child a {
+    color: #000000;
+}
+nav a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+main {
+    background-color: #ffffff;
+    width: 840px;
+    margin: auto;
+    margin-top: 4px;
+    height: 500px;
+}
+.courses {
+    width: 570px;
+    float: left;
+}
+
+
+
+aside {
+    float: right;
+    width: 240px;
+    border-left: 1px solid #E6E7E5;
+}
+.popular-recipes li {
+    padding: 10px 0;
+    border-bottom: 1px solid #E6E7E5;
+    width: 140px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 18px;
+}
+.popular-recipes li:hover {
+    cursor: pointer;
+    background-color: #EFEFEF;
+}
+.popular-recipes li a:hover {
+    color: #BA99A1;
+}
+.popular-recipes li a {
+    color: #E591A0;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.popular-recipes h2 {
+    padding: 45px 0 0 20px;
+    color: #E591A0;
+    font-size: 22px;
+    font-weight: bold;
+    width: 80px;
+}
+aside {
+    padding-left: 29px;
+    padding-bottom: 40px;
+}
+.popular-recipes ul {
+    padding-top: 10px;
+    width: 130px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+article figure {
+    float: left;
+    padding: 4px;
+    border: 1px solid #E6E7E5;
+}
+article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+article {
+    margin-left: -10px;
+}
+div {
+    padding-top: 45px;
+}
+div h2 {
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+div h3 {
+    font-weight: bold;
+    color: #DDC380;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+p, figcaption {
+    color: #999A98;
+}
+p {
+    line-height: 150%;
+}
+figcaption {
+    margin: 5px 0;
+}
+footer {
+    background-color: #AEACA8;
+    margin-top: 2px;
+    height: 19px;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-left: 630px;
+}

@@ -1,0 +1,94 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+body {
+    background-image: linear-gradient(to right,rgba(18, 48, 57, 0.85) 53.5%, rgba(67, 92, 99, 0.85) 78.4%);
+    font-family: Lato, sans-serif;
+}
+
+body .order-form {
+    background-color: #FAFAFA;
+    margin: auto;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 900px;
+}
+
+body .order-form img {
+    height: 535px;
+    margin-left: 60px;
+}
+
+body .order-form form {
+    float: right;
+}
+
+body .order-form form h1 {
+    color: #9E9E9E;
+    text-transform: uppercase;
+    width: 400px;
+    font-size: 32px;
+    float: right;
+    text-align: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+body .order-form form p {
+    clear: both;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 0;
+    font-size: 32px;
+    color: #535E66;
+    font-weight: 900;
+}
+
+body .order-form form .left-side-form, .right-side-form {
+    display: inline-block;
+    width: 200px;
+    vertical-align: bottom;
+    position: relative;
+    margin-top: 25px;
+}
+
+body .order-form form .right-side-form {
+    margin-left: 20px;
+}
+
+body .order-form form input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #535E66;
+    /*border-left: 1px solid #535E66;*/
+    background-color: #FAFAFA;
+    height: 35px;
+    margin-bottom: 40px;
+    outline: none;
+    text-align: center
+}
+
+body .order-form form input::-webkit-input-placeholder {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+
+body .order-form form i {
+    position: absolute;
+    font-size: 28px;
+    color: #535E66;
+}
+
+body .order-form form .button {
+    padding: 20px 40px;
+    border-bottom: none;
+    background-color: #535E66;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3px;
+    border-radius: 25px;
+    margin-left: 240px;
+}

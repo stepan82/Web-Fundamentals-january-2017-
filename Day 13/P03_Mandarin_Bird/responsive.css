@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px) and (min-width: 730px)  {
+
+    #wrapper {
+        min-width: 1200px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 800px;
+    }
+
+    main aside {
+        float: none;
+        width: 660px;
+        margin: auto;
+    }
+
+    main > aside > article {
+        margin-right: 0;
+    }
+
+    main section {
+        margin: auto;
+        margin-top: 30px
+    }
+
+    header nav > ul li {
+        width: 150px;
+    }
+
+    header nav > ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    header {
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+
+    #wrapper {
+        min-width: 700px;
+    }
+
+    header nav > ul li {
+        width: 100%;
+    }
+
+    header nav > ul {
+        display: flex;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    main {
+        margin-top: 200px;
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header {
+        width: 600px;
+    }
+
+    header > p {
+        margin: 0;
+    }
+
+    main aside, article {
+        width: auto;
+    }
+
+    main aside {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    main > aside > article {
+        margin-right: 20px;;
+        padding-right: 0;
+    }
+
+    main > aside > article h1, h2 {
+        text-align: center;
+    }
+
+    main section {
+        width: 560px;
+        margin-left: 0;
+    }
+
+    main section > div {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    main > section > div > article > h3 {
+        text-align: center;
+    }
+
+    main > section > div:nth-child(1) > div {
+         background-color: #B7CC89;
+         text-align: center;
+        margin-right: 0;
+     }
+
+    main > section > div:nth-child(2) > div {
+        background-color: #B7CC89;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    main > section > div:nth-child(3) > div {
+        background-color: #B7CC89;
+        text-align: center;
+        margin-right: 0;
+    }
+}
